@@ -1,73 +1,89 @@
-# VPN Configs
+<div align="center">
 
-[![Frequent Update](https://github.com/bastidev-wav/vpn-mirror/actions/workflows/frequent_update.yml/badge.svg)](https://github.com/bastidev-wav/vpn-mirror/actions/workflows/frequent_update.yml)
+![Banner](https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,100:00C9A7&height=200&section=header&text=VPN%20Configs%20Mirror&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Espejo%20automático%20de%20configuraciones%20VPN%20gratuitas&descAlignY=55&descSize=18)
 
-Automated aggregator that collects free VPN configuration files from multiple open-source repositories across GitHub and mirrors them into a single, regularly updated location.
+[![Actualización Frecuente](https://github.com/bastidev-wav/vpn-mirror/actions/workflows/frequent_update.yml/badge.svg)](https://github.com/bastidev-wav/vpn-mirror/actions/workflows/frequent_update.yml)
+![Último commit](https://img.shields.io/github/last-commit/bastidev-wav/vpn-mirror?color=6C63FF&label=última%20actualización&style=flat-square)
+![Configuraciones activas](https://img.shields.io/badge/configuraciones-25-00C9A7?style=flat-square)
+![Licencia](https://img.shields.io/github/license/bastidev-wav/vpn-mirror?color=6C63FF&style=flat-square)
 
-## How It Works
+</div>
 
-1. A GitHub Actions workflow runs **every hour** on a cron schedule.
-2. The script reads a curated list of source URLs from `urls.txt`.
-3. Each source is fetched, deduplicated via MD5 hash comparison, and saved to the `githubmirror/` directory.
-4. The table below is regenerated with the latest update timestamps.
+## 📡 ¿Qué es esto?
 
-## Configs
+Agregador automático que recolecta configuraciones VPN gratuitas desde múltiples repositorios de código abierto en GitHub y las centraliza en un único lugar, actualizado periódicamente.
 
-|Num|                                                 File                                                |                    Source                    |Update time|Update date|
-|---|-----------------------------------------------------------------------------------------------------|----------------------------------------------|-----------|-----------|
-| 1 | [`1.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/1.txt) |               sakha1370/OpenRay              |   05:03   | 03.08.2026|
-| 2 | [`2.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/2.txt) |             sevcator/5ubscrpt10n             |   19:18   | 14.07.2026|
-| 3 | [`3.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/3.txt) |           yitong2333/proxy-minging           |   05:03   | 03.08.2026|
-| 4 | [`4.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/4.txt) |                 acymz/AutoVPN                |   05:03   | 03.08.2026|
-| 5 | [`5.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/5.txt) |         miladtahanian/V2RayCFGDumper         |   05:03   | 03.08.2026|
-| 6 | [`6.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/6.txt) |           roosterkid/openproxylist           |   05:03   | 03.08.2026|
-| 7 | [`7.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/7.txt) |            Epodonios/v2ray-configs           |   05:03   | 03.08.2026|
-| 8 | [`8.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/8.txt) |             CidVpn/cid-vpn-config            |   05:03   | 03.08.2026|
-| 9 | [`9.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/9.txt) |mohamadfg-dev/telegram-v2ray-configs-collector|   05:03   | 03.08.2026|
-| 10|[`10.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/10.txt)|               mheidari98/.proxy              |   05:03   | 03.08.2026|
-| 11|[`11.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/11.txt)|          youfoundamin/V2rayCollector         |   05:03   | 03.08.2026|
-| 12|[`12.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/12.txt)|            expressalaki/ExpressVPN           |   08:17   | 27.05.2026|
-| 13|[`13.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/13.txt)|          MahsaNetConfigTopic/config          |   23:11   | 25.07.2026|
-| 14|[`14.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/14.txt)|              LalatinaHub/Mineral             |   05:03   | 03.08.2026|
-| 15|[`15.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/15.txt)|        miladtahanian/Config-Collector        |   05:03   | 03.08.2026|
-| 16|[`16.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/16.txt)|             Pawdroid/Free-servers            |   05:03   | 03.08.2026|
-| 17|[`17.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/17.txt)|         MhdiTaheri/V2rayCollector_Py         |   05:03   | 03.08.2026|
-| 18|[`18.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/18.txt)|                 free18/v2ray                 |   11:09   | 02.08.2026|
-| 19|[`19.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/19.txt)|           MhdiTaheri/V2rayCollector          |   05:03   | 03.08.2026|
-| 20|[`20.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/20.txt)|               Argh94/Proxy-List              |   05:03   | 03.08.2026|
-| 21|[`21.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/21.txt)|                shabane/kamaji                |   11:09   | 02.08.2026|
-| 22|[`22.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/22.txt)|         wuqb2i4f/xray-config-toolkit         |   05:03   | 03.08.2026|
-| 23|[`23.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/23.txt)|        igareck/vpn-configs-for-russia        |   05:03   | 03.08.2026|
-| 24|[`24.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/24.txt)|                Mr-Meshky/vify                |   05:03   | 03.08.2026|
-| 25|[`25.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/25.txt)|             V2RayRoot/V2RayConfig            |   10:28   | 05.07.2026|
+## ⚙️ Cómo funciona
 
-## Quick Start
+1. Un workflow de **GitHub Actions** se ejecuta **cada hora** según un cron.
+2. El script lee la lista de fuentes desde [`urls.txt`](./urls.txt).
+3. Cada fuente se descarga y se compara mediante hash **MD5** para detectar cambios; si cambió, se guarda en [`githubmirror/`](./githubmirror).
+4. La tabla de abajo se regenera con la hora y fecha de Chile 🇨🇱 (`America/Santiago`).
+
+## 📋 Configuraciones
+
+|N°|                                                  Archivo                                                  |                    Fuente                    |Hora (CLT)|Fecha (CLT)|
+|--|-----------------------------------------------------------------------------------------------------------|----------------------------------------------|----------|-----------|
+| 1|    [`1.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/1.txt)    |               sakha1370/OpenRay              |   05:03  | 03.08.2026|
+| 2|    [`2.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/2.txt)    |             sevcator/5ubscrpt10n             |   19:18  | 14.07.2026|
+| 3|    [`3.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/3.txt)    |           yitong2333/proxy-minging           |   05:03  | 03.08.2026|
+| 4|    [`4.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/4.txt)    |                 acymz/AutoVPN                |   05:03  | 03.08.2026|
+| 5|    [`5.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/5.txt)    |         miladtahanian/V2RayCFGDumper         |   05:03  | 03.08.2026|
+| 6| [`6.txt`](https://raw.githubusercontent.com/bastidev-wav/vpn-mirror/refs/heads/master/githubmirror/6.txt) |           roosterkid/openproxylist           |   03:54  | 03.08.2026|
+| 7|    [`7.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/7.txt)    |            Epodonios/v2ray-configs           |   05:03  | 03.08.2026|
+| 8|    [`8.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/8.txt)    |             CidVpn/cid-vpn-config            |   05:03  | 03.08.2026|
+| 9|    [`9.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/9.txt)    |mohamadfg-dev/telegram-v2ray-configs-collector|   05:03  | 03.08.2026|
+|10|   [`10.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/10.txt)   |               mheidari98/.proxy              |   05:03  | 03.08.2026|
+|11|   [`11.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/11.txt)   |          youfoundamin/V2rayCollector         |   05:03  | 03.08.2026|
+|12|   [`12.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/12.txt)   |            expressalaki/ExpressVPN           |   08:17  | 27.05.2026|
+|13|   [`13.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/13.txt)   |          MahsaNetConfigTopic/config          |   23:11  | 25.07.2026|
+|14|   [`14.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/14.txt)   |              LalatinaHub/Mineral             |   05:03  | 03.08.2026|
+|15|[`15.txt`](https://raw.githubusercontent.com/bastidev-wav/vpn-mirror/refs/heads/master/githubmirror/15.txt)|        miladtahanian/Config-Collector        |   03:54  | 03.08.2026|
+|16|   [`16.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/16.txt)   |             Pawdroid/Free-servers            |   05:03  | 03.08.2026|
+|17|[`17.txt`](https://raw.githubusercontent.com/bastidev-wav/vpn-mirror/refs/heads/master/githubmirror/17.txt)|         MhdiTaheri/V2rayCollector_Py         |   03:54  | 03.08.2026|
+|18|   [`18.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/18.txt)   |                 free18/v2ray                 |   11:09  | 02.08.2026|
+|19|   [`19.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/19.txt)   |           MhdiTaheri/V2rayCollector          |   05:03  | 03.08.2026|
+|20|[`20.txt`](https://raw.githubusercontent.com/bastidev-wav/vpn-mirror/refs/heads/master/githubmirror/20.txt)|               Argh94/Proxy-List              |   03:54  | 03.08.2026|
+|21|   [`21.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/21.txt)   |                shabane/kamaji                |   11:09  | 02.08.2026|
+|22|[`22.txt`](https://raw.githubusercontent.com/bastidev-wav/vpn-mirror/refs/heads/master/githubmirror/22.txt)|         wuqb2i4f/xray-config-toolkit         |   03:54  | 03.08.2026|
+|23|[`23.txt`](https://raw.githubusercontent.com/bastidev-wav/vpn-mirror/refs/heads/master/githubmirror/23.txt)|        igareck/vpn-configs-for-russia        |   03:54  | 03.08.2026|
+|24|   [`24.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/24.txt)   |                Mr-Meshky/vify                |   05:03  | 03.08.2026|
+|25|   [`25.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/25.txt)   |             V2RayRoot/V2RayConfig            |   10:28  | 05.07.2026|
+
+## 🚀 Uso rápido
 
 ```bash
-# Clone the repository
+# Clonar el repositorio
 git clone https://github.com/bastidev-wav/vpn-mirror.git
 cd vpn-mirror
 
-# Install dependencies
+# Instalar dependencias
 pip install -r requirements.txt
 
-# Set environment variables
-export GH_TOKEN="your_github_token"
-export REPO_NAME="owner/repo"
+# Configurar variables de entorno
+export GH_TOKEN="tu_token_de_github"
+export REPO_NAME="usuario/repositorio"
 
-# Run
+# Ejecutar
 python main.py
 ```
 
-## Requirements
+## 📦 Dependencias
 
-| Package | Purpose |
-|---------|---------|
-| [aiohttp](https://pypi.org/project/aiohttp/) | Async HTTP requests |
-| [aiofiles](https://pypi.org/project/aiofiles/) | Async file I/O |
-| [PyGithub](https://pypi.org/project/PyGithub/) | GitHub API integration |
-| [py-markdown-table](https://pypi.org/project/py-markdown-table/) | Markdown table generation |
+| Paquete | Uso |
+|---------|-----|
+| [aiohttp](https://pypi.org/project/aiohttp/) | Peticiones HTTP asíncronas |
+| [aiofiles](https://pypi.org/project/aiofiles/) | Lectura/escritura de archivos asíncrona |
+| [PyGithub](https://pypi.org/project/PyGithub/) | Integración con la API de GitHub |
+| [py-markdown-table](https://pypi.org/project/py-markdown-table/) | Generación de tablas en Markdown |
+| [tzdata](https://pypi.org/project/tzdata/) | Base de datos de zonas horarias IANA para `zoneinfo` |
 
-## Disclaimer
+## ⚠️ Aviso
 
-This project is provided for **educational and informational purposes only**. The maintainers do not host, create, or endorse any VPN configurations — all files are mirrored from publicly available open-source repositories. Use at your own risk and in compliance with your local laws.
+Este proyecto se ofrece únicamente con fines **educativos e informativos**. Quienes lo mantienen no alojan, crean ni respaldan ninguna configuración VPN — todos los archivos se espejan desde repositorios públicos de código abierto. Úsalo bajo tu propia responsabilidad y de acuerdo con las leyes de tu país.
+
+<div align="center">
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:00C9A7,100:6C63FF&height=100&section=footer)
+
+</div>
