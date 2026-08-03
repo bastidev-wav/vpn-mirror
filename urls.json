@@ -20,13 +20,6 @@
     "Update time": "05:03",
     "Update date": "03.08.2026"
   },
-  "https://raw.githubusercontent.com/expressalaki/ExpressVPN/refs/heads/main/configs3.txt": {
-    "Num": 12,
-    "File": "[`12.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/12.txt)",
-    "Source": "expressalaki/ExpressVPN",
-    "Update time": "08:17",
-    "Update date": "27.05.2026"
-  },
   "https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/protocols/vl.txt": {
     "Num": 2,
     "File": "[`2.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/2.txt)",
@@ -36,16 +29,16 @@
   },
   "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt": {
     "Num": 6,
-    "File": "[`6.txt`](https://raw.githubusercontent.com/bastidev-wav/vpn-mirror/refs/heads/master/githubmirror/6.txt)",
+    "File": "[`6.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/6.txt)",
     "Source": "roosterkid/openproxylist",
-    "Update time": "03:54",
+    "Update time": "05:03",
     "Update date": "03.08.2026"
   },
   "https://raw.githubusercontent.com/wuqb2i4f/xray-config-toolkit/main/output/base64/mix-uri": {
-    "Num": 22,
-    "File": "[`22.txt`](https://raw.githubusercontent.com/bastidev-wav/vpn-mirror/refs/heads/master/githubmirror/22.txt)",
+    "Num": 20,
+    "File": "[`20.txt`](https://raw.githubusercontent.com/bastidev-wav/vpn-mirror/refs/heads/master/githubmirror/20.txt)",
     "Source": "wuqb2i4f/xray-config-toolkit",
-    "Update time": "03:54",
+    "Update time": "03:58",
     "Update date": "03.08.2026"
   },
   "https://raw.githubusercontent.com/V2RayRoot/V2RayConfig/refs/heads/main/Config/vless.txt": {
@@ -57,24 +50,24 @@
   },
   "https://raw.githubusercontent.com/miladtahanian/Config-Collector/refs/heads/main/mixed_iran.txt": {
     "Num": 15,
-    "File": "[`15.txt`](https://raw.githubusercontent.com/bastidev-wav/vpn-mirror/refs/heads/master/githubmirror/15.txt)",
+    "File": "[`15.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/15.txt)",
     "Source": "miladtahanian/Config-Collector",
-    "Update time": "03:54",
+    "Update time": "05:03",
     "Update date": "03.08.2026"
   },
   "https://raw.githubusercontent.com/CidVpn/cid-vpn-config/refs/heads/main/general.txt": {
     "Num": 8,
-    "File": "[`8.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/8.txt)",
+    "File": "[`8.txt`](https://raw.githubusercontent.com/bastidev-wav/vpn-mirror/refs/heads/master/githubmirror/8.txt)",
     "Source": "CidVpn/cid-vpn-config",
-    "Update time": "05:03",
+    "Update time": "03:58",
     "Update date": "03.08.2026"
   },
   "https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/v.txt": {
-    "Num": 18,
-    "File": "[`18.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/18.txt)",
+    "Num": 16,
+    "File": "[`16.txt`](https://raw.githubusercontent.com/bastidev-wav/vpn-mirror/refs/heads/master/githubmirror/16.txt)",
     "Source": "free18/v2ray",
-    "Update time": "11:09",
-    "Update date": "02.08.2026"
+    "Update time": "03:58",
+    "Update date": "03.08.2026"
   },
   "https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub": {
     "Num": 16,
@@ -96,13 +89,6 @@
     "Source": "mohamadfg-dev/telegram-v2ray-configs-collector",
     "Update time": "05:03",
     "Update date": "03.08.2026"
-  },
-  "https://raw.githubusercontent.com/MahsaNetConfigTopic/config/refs/heads/main/xray_final.txt": {
-    "Num": 13,
-    "File": "[`13.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/13.txt)",
-    "Source": "MahsaNetConfigTopic/config",
-    "Update time": "23:11",
-    "Update date": "25.07.2026"
   },
   "https://raw.githubusercontent.com/youfoundamin/V2rayCollector/main/mixed_iran.txt": {
     "Num": 11,
@@ -127,16 +113,16 @@
   },
   "https://github.com/Argh94/Proxy-List/raw/refs/heads/main/All_Config.txt": {
     "Num": 20,
-    "File": "[`20.txt`](https://raw.githubusercontent.com/bastidev-wav/vpn-mirror/refs/heads/master/githubmirror/20.txt)",
+    "File": "[`20.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/20.txt)",
     "Source": "Argh94/Proxy-List",
-    "Update time": "03:54",
+    "Update time": "05:03",
     "Update date": "03.08.2026"
   },
   "https://github.com/MhdiTaheri/V2rayCollector_Py/raw/refs/heads/main/sub/Mix/mix.txt": {
     "Num": 17,
-    "File": "[`17.txt`](https://raw.githubusercontent.com/bastidev-wav/vpn-mirror/refs/heads/master/githubmirror/17.txt)",
+    "File": "[`17.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/17.txt)",
     "Source": "MhdiTaheri/V2rayCollector_Py",
-    "Update time": "03:54",
+    "Update time": "05:03",
     "Update date": "03.08.2026"
   },
   "https://github.com/MhdiTaheri/V2rayCollector/raw/refs/heads/main/sub/mix": {
@@ -148,23 +134,23 @@
   },
   "https://github.com/sakha1370/OpenRay/raw/refs/heads/main/output/all_valid_proxies.txt": {
     "Num": 1,
-    "File": "[`1.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/1.txt)",
+    "File": "[`1.txt`](https://raw.githubusercontent.com/bastidev-wav/vpn-mirror/refs/heads/master/githubmirror/1.txt)",
     "Source": "sakha1370/OpenRay",
-    "Update time": "05:03",
+    "Update time": "03:58",
     "Update date": "03.08.2026"
   },
   "https://github.com/igareck/vpn-configs-for-russia/raw/refs/heads/main/BLACK_VLESS_RUS.txt": {
     "Num": 23,
-    "File": "[`23.txt`](https://raw.githubusercontent.com/bastidev-wav/vpn-mirror/refs/heads/master/githubmirror/23.txt)",
+    "File": "[`23.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/23.txt)",
     "Source": "igareck/vpn-configs-for-russia",
-    "Update time": "03:54",
+    "Update time": "05:03",
     "Update date": "03.08.2026"
   },
   "https://github.com/LalatinaHub/Mineral/raw/refs/heads/master/result/nodes": {
-    "Num": 14,
-    "File": "[`14.txt`](https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/14.txt)",
+    "Num": 12,
+    "File": "[`12.txt`](https://raw.githubusercontent.com/bastidev-wav/vpn-mirror/refs/heads/master/githubmirror/12.txt)",
     "Source": "LalatinaHub/Mineral",
-    "Update time": "05:03",
+    "Update time": "03:58",
     "Update date": "03.08.2026"
   },
   "https://github.com/Epodonios/v2ray-configs/raw/main/Splitted-By-Protocol/trojan.txt": {
